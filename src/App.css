@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@layer base {
+  body {
+    @apply font-poppins text-primary-text-color;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@layer components {
+  .container {
+    @apply xs:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 3xl:w-[1600px];
   }
-  to {
-    transform: rotate(360deg);
+
+  .btn-subscribe {
+    @apply py-[10px] px-8 border rounded-[100px] inline-block font-mulish;
+  }
+
+  .overlay {
+    @apply fixed top-0 right-0 bottom-0 left-0 bg-black opacity-0 invisible transition-all duration-500 ease-in-out;
+  }
+
+  .open-overlay {
+    @apply opacity-70 visible;
+  }
+
+  .menu-mobile-header {
+    @apply fixed top-0 bottom-0 left-0 w-[300px] pt-[50px] pr-5 pb-[30px] pl-[30px] ml-[-300px] bg-white z-[100] opacity-0 overflow-hidden transition-all duration-500 ease-in-out;
+  }
+
+  .open-menu-mobile-header {
+    @apply ml-[0] opacity-100;
   }
 }
