@@ -1,3 +1,4 @@
+import Funfact from '~/Funfact/Funfact'
 import Feature from '~/components/Feature/Feature'
 import Header from '~/components/Header/Header'
 import Hero from '~/components/Hero/Hero'
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <ProductDemo />
       <Feature />
+      <Funfact />
     </div>
   )
 }

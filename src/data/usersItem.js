@@ -1,4 +1,4 @@
-const userItem = [
+const usersItem = [
   {
     id: 1,
     img: 'https://adminlte.io/wp-content/uploads/2021/04/u-1.png',
@@ -25,4 +25,4 @@ const userItem = [
   }
 ]
 
-export default userItem
+export default usersItem
