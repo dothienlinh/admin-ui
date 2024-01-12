@@ -9,7 +9,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern':
-          'url("https://adminlte.io/wp-content/uploads/2021/04/hero-bg.jpg")'
+          'url("https://adminlte.io/wp-content/uploads/2021/04/hero-bg.jpg")',
+        support:
+          'url("https://adminlte.io/wp-content/uploads/2021/04/support-bg.jpg")'
       }
     },
     colors: {
