@@ -3,6 +3,7 @@ import Feature from '~/components/Feature/Feature'
 import Header from '~/components/Header/Header'
 import Hero from '~/components/Hero/Hero'
 import ProductDemo from '~/components/ProductDemo/ProductDemo'
+import Works from '~/components/Works/Works'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <ProductDemo />
       <Feature />
       <Funfact />
+      <Works />
     </div>
   )
 }
