@@ -11,7 +11,7 @@ const itemBtn = [
 function Hero() {
   return (
     <section className="bg-hero-pattern pt-[180px] bg-cover bg-no-repeat bg-top">
-      <div className="container mx-auto px-3 ">
+      <div className="container-fluid mx-auto px-3 ">
         <div className="text-center mx-auto max-w-[1010px]">
           <h2 className="text-white text-[22px] font-extrabold font-mulish mb-5 md:text-[40px] leading-[26.4px]">
             AdminLTE Bootstrap Admin Dashboard Template

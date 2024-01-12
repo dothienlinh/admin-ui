@@ -14,11 +14,9 @@ function MenuHeader({ openMenu, setOpenMenu }) {
 
   useEffect(() => {
     if (openMenu) {
-      console.log('open menu')
       overlayRef.current.classList.add('open-overlay')
       menuMobileHeaderRef.current.classList.add('open-menu-mobile-header')
     } else {
-      console.log('close menu')
       overlayRef.current.classList.remove('open-overlay')
       menuMobileHeaderRef.current.classList.remove('open-menu-mobile-header')
     }
