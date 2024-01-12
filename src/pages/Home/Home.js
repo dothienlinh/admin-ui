@@ -3,6 +3,7 @@ import Feature from '~/components/Feature/Feature'
 import Header from '~/components/Header/Header'
 import Hero from '~/components/Hero/Hero'
 import ProductDemo from '~/components/ProductDemo/ProductDemo'
+import Support from '~/components/Support/Support'
 import Works from '~/components/Works/Works'
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Feature />
       <Funfact />
       <Works />
+      <Support />
     </div>
   )
 }
