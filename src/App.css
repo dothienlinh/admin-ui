@@ -8,8 +8,12 @@
 }
 
 @layer components {
-  .container {
+  .container-fluid {
     @apply xs:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 3xl:w-[1600px];
+  }
+
+  .container {
+    @apply xs:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px];
   }
 
   .btn-subscribe {
@@ -30,5 +34,9 @@
 
   .open-menu-mobile-header {
     @apply ml-[0] opacity-100;
+  }
+
+  .view-all-btn {
+    @apply inline-block mx-auto mt-10 pt-[18px] pb-4 px-[66px] border border-blue text-blue rounded-full;
   }
 }
