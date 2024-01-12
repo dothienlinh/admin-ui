@@ -7,7 +7,7 @@ function ProductDemoItem() {
   return (
     <>
       {productDemoList.map((item) => (
-        <div key={item.id} className="px-3 font-mulish">
+        <div key={item.id} className="px-3">
           <div className="bg-white rounded-[10px] border border-[#f0f0f0] overflow-hidden mb-[30px]">
             <Image src={item.img} />
             <div className="pt-9 pr-[35px] pb-[25px] pl-[30px]">
